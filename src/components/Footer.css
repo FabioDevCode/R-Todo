@@ -1,0 +1,9 @@
+a {
+    font-family: 'Varela Round', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #61DAFB;
+}

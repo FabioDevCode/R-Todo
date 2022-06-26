@@ -1,0 +1,73 @@
+.Bloc-input {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    min-width: 300px;
+    background-color: #20232A;
+    margin-bottom: 25px;
+}
+
+.Bloc-input input {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    border-right: 2px solid #20232A;
+    border-radius: 15px 0 0 15px;
+    width: 75%;
+    height: 50px;
+    font-size: 1.1em;
+    padding: 0 20px;
+    outline: none;
+}
+
+.Bloc-input input:focus {
+    box-shadow: -1px 0px 10px 5px rgba(97, 218, 251, .5);
+}
+
+.Bloc-input button {
+    cursor: pointer;
+    border: none;
+    border-left: 2px solid #20232A;
+    border-radius: 0 15px 15px 0;
+    background-color: rgb(97, 218, 251);
+    width: 25%;
+    height: 50px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.Bloc-input button:hover {
+    box-shadow: 1px 0px 10px 5px rgba(97, 218, 251, .5);
+    border: none;
+}
+
+.Bloc-input button:active {
+    transform: scale(.95);
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    min-width: 300px;
+    margin: 0 auto 50px auto;
+}
+
+ul {
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid rgb(97, 218, 251);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 45px;
+    background-color: #2e2f32;
+}

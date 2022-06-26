@@ -1,0 +1,19 @@
+.App-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 25%;
+    min-width: max-content;
+    padding: 0 70px;
+    border-radius: 0 0 20px 20px;
+    background-color: #61DAFB;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.7em;
+    margin-bottom: 50px;
+}
+
+.App-header h1 {
+    margin: 0 auto;
+    color: #20232A;
+}
